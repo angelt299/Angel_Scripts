@@ -1,0 +1,6 @@
+[Unit]
+Description=Sincronizacion de /home/angel con /bacangel/espejo
+
+[Service]
+Type=oneshot
+ExecStart=/scrangel/angelsp31-9.sh

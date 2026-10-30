@@ -1,0 +1,9 @@
+[Unit]
+Description=Ejecuta la sincronizacion todos los dias a las 22:00
+
+[Timer]
+OnCalendar=*-*-* 22:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

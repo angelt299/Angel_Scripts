@@ -1,0 +1,5 @@
+cowsay
+sl
+figlet
+tree
+nmap
